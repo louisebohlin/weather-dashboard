@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  background-color: #d79283;
+}
+
+.column-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+
+}
+
+.row-divs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 470px;
+}
